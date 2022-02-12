@@ -1,0 +1,29 @@
+.carHead {
+  display: grid;
+  grid-template-columns: 160px 110px;
+}
+
+.infowrapper {
+  display: grid;
+  grid-template-columns: 320px 110px;
+  width: 520px;
+  grid-gap: 10px;
+}
+
+.container {
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.stats {
+  display: grid;
+  grid-template-rows: repeat(5, 51px);
+  align-items: center;
+}
+
+.buttons {
+  height: 56px;
+}

@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "build-start": "npm run build --prefix ./client/ && cd ./server/ && venv\\scripts\\activate.bat && flask run",
+        "just-start": "cd ./server/ && venv\\scripts\\activate.bat && flask run"
+    }
+}

@@ -1,0 +1,9 @@
+.dropdown-menu {
+    max-height: 700px;
+    overflow-y: scroll;
+  }
+  
+.jumboContainer {
+  display: grid;
+  grid-template-columns: 150px 210px;
+}
